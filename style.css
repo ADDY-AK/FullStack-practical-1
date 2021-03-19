@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat";
+
+  }
+#title{
+    color: #000;
+  }
+
+.navbar{
+    padding: 0 0 .5rem;
+  }
+  
+  .navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 0 18px;
+  }
+  
+  .nav-item{
+    padding: 0 15px;
+  }
+  
+  .nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+  }
+  .upper-nav{
+      background-color: grey;
+  }
+  .navbar-dark .navbar-nav .nav-link{
+      color: black;
+  }
+  .upper-nav{
+      background-color: lightgray;
+  }
+  .lower-nav{
+      color: black;
+    background-color: white;
+}
+  .header{
+      background: url("images/civil.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      height: 100vh;
+  }
+  .about h4{
+      padding: 15% 5% 0;
+      display: flex;
+      justify-content: justify;
+  }
+  .about h1{
+    padding: 0 5%;
+    font-size: 5rem;
+    display: flex;
+    justify-content: justify;
+}
+.btn{
+    margin: 0 6%;
+    background-color: #4D2444;
+    color: wheat;
+}
+.header-section{
+    background-color: rgba(255, 255, 255, 0.548);;
+    color: darkslategray;
+    margin: 25% 16%;
+    padding: 2% 3%;
+}
